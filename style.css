@@ -30,15 +30,15 @@ h1{
  }
 
  .cal table {
-    width: 100%; /* Ensure table fills the div */
+    width: 100%;  
 }
 
 .cal table th,
 .cal table td {
-    width: calc(100% / 7); /* Equal width for each cell */
-    height: 50px; /* Adjust height as needed */
-    border: 1px solid black; /* Add border to cells */
-    background-color: #f2f2f2; /* Background color for cells */
+    width: calc(100% / 7);  
+    height: 50px; 
+    border: 1px solid black; 
+    background-color: #f2f2f2;  
 }
 .cal table th {
     background-color: #cccccc; /* Background color for header */
