@@ -1,0 +1,72 @@
+ 
+
+
+
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+ .calender-container{
+    width: 1005;
+    /* height: 600px; */
+    /* border: 2px solid black;  */
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+ }
+
+ .cal{
+
+    width: calc(25% - 4px - 10px);
+    /* height: 400px; */
+    border: 1px solid black;
+    margin: 5px;
+
+ }
+
+ .cal table {
+    width: 100%; /* Ensure table fills the div */
+}
+
+.cal table th,
+.cal table td {
+    width: calc(100% / 7); /* Equal width for each cell */
+    height: 50px; /* Adjust height as needed */
+    border: 1px solid black; /* Add border to cells */
+    background-color: #f2f2f2; /* Background color for cells */
+}
+.cal table th {
+    background-color: #cccccc; /* Background color for header */
+}
+td{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+ @media only screen and (max-width:600px){
+    .cal{
+        width: calc(100% - 4px - 10px);
+    }
+ }
+ @media only screen and (min-width:601px){
+    .cal{
+        width: calc(50% - 4px - 10px);
+    }
+ }
+
+ @media only screen and (min-width:801px){
+    .cal{
+        width: calc(33.3% - 4px - 10px);
+    }
+ }
+
+ 
+
+ 
